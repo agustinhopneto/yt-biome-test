@@ -1,75 +1,77 @@
 <div align="center">
 
-# 🧹 Pare de usar o Prettier: conheça o Biome
+# 🧹 Stop Using Prettier: Meet Biome
 
-**Primeiros passos com o Biome, o substituto do Prettier e do ESLint.**
+**Getting started with Biome, the replacement for Prettier and ESLint.**
 
 ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-[![YouTube](https://img.shields.io/badge/Assista_no_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=xGNeiYudRvk)
-[![DevClub PRO](https://img.shields.io/badge/Canal-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO)
+[![YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=xGNeiYudRvk)
+[![DevClub PRO](https://img.shields.io/badge/Channel-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO)
 
 </div>
 
 ---
 
-## 🎬 Vídeo
+## 🎬 Video
 
-Este repositório acompanha o vídeo do canal **[DevClub PRO](https://www.youtube.com/@DevClubPRO)**:
+This repository accompanies a video from the **[DevClub PRO](https://www.youtube.com/@DevClubPRO)** channel:
 
 <div align="center">
 
-<a href="https://www.youtube.com/watch?v=xGNeiYudRvk" title="Pare de usar o Prettier | Aqui está o porque…">
-  <img src="https://img.youtube.com/vi/xGNeiYudRvk/maxresdefault.jpg" alt="Pare de usar o Prettier | Aqui está o porque…" width="720" />
+<a href="https://www.youtube.com/watch?v=xGNeiYudRvk" title="Stop Using Prettier | Here's Why…">
+  <img src="https://img.youtube.com/vi/xGNeiYudRvk/maxresdefault.jpg" alt="Stop Using Prettier | Here's Why…" width="720" />
 </a>
 
-**▶️ [Pare de usar o Prettier | Aqui está o porque…](https://www.youtube.com/watch?v=xGNeiYudRvk)**
+**▶️ [Stop Using Prettier | Here's Why…](https://www.youtube.com/watch?v=xGNeiYudRvk)**
+
+<sub>🇧🇷 The video is in Brazilian Portuguese.</sub>
 
 </div>
 
-## 📖 Sobre
+## 📖 About
 
-Projeto de exemplo do vídeo sobre o **Biome**, uma ferramenta que substitui o Prettier e o ESLint em um único binário, prometendo ser até **35x mais rápida**. Aqui temos um servidor Express simples, com imports sem uso de propósito, para ver o linter, o formatter e a organização de imports do Biome em ação.
+Example project from the video about **Biome**, a tool that replaces Prettier and ESLint with a single binary and claims to be up to **35x faster**. It contains a simple Express server with intentionally unused imports, so you can see Biome’s linter, formatter and import sorting in action.
 
-## 🎯 O que você vai aprender
+## 🎯 What you’ll learn
 
-- Instalar e inicializar o Biome em um projeto
-- Configurar o formatter (aspas simples, espaçamento...) no `biome.json`
-- Usar o linter com as regras recomendadas
-- Organizar imports automaticamente
+- Install and initialize Biome in a project
+- Configure the formatter (single quotes, spacing...) in `biome.json`
+- Use the linter with the recommended rules
+- Organize imports automatically
 
-## 💻 Comandos do Biome
+## 💻 Biome commands
 
 ```bash
-# Verifica lint + formatação + imports
+# Check lint + formatting + imports
 npx @biomejs/biome check ./src
 
-# Aplica as correções
+# Apply the fixes
 npx @biomejs/biome check --write ./src
 ```
 
-## 🚀 Como rodar
+## 🚀 Getting started
 
-> Pré-requisito: [Node.js](https://nodejs.org/) 18+
+> Prerequisite: [Node.js](https://nodejs.org/) 18+
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone the repository
 git clone https://github.com/agustinhopneto/yt-biome-test.git
 cd yt-biome-test
 
-# 2. Instale as dependências
+# 2. Install the dependencies
 npm install
 
-# 3. Rode o servidor
+# 3. Start the server
 npm run dev
 ```
 
-Acesse **http://localhost:3333** 🎉
+Open **http://localhost:3333** 🎉
 
-## 🛠️ Tecnologias
+## 🛠️ Tech stack
 
 ![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -80,10 +82,10 @@ Acesse **http://localhost:3333** 🎉
 
 <div align="center">
 
-Curtiu? Deixa um ⭐ no repositório e se inscreva no canal!
+Enjoyed it? Leave a ⭐ on the repo and subscribe to the channel!
 
-[![Inscreva-se](https://img.shields.io/badge/Inscreva--se-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO?sub_confirmation=1)
+[![Subscribe](https://img.shields.io/badge/Subscribe-DevClub_PRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevClubPRO?sub_confirmation=1)
 
-Feito com 💙 por **[Agustinho Neto](https://github.com/agustinhopneto)**
+Made with 💙 by **[Agustinho Neto](https://github.com/agustinhopneto)**
 
 </div>
